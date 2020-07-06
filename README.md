@@ -1,2 +1,9 @@
-# INF648
-aquí va el read me
+# Proyecto de Curso INF648 - Bank Marketing Data Set
+
+En este proyecto exploramos los resultados de la aplicación de diferentes métodos y técnicas de aprendizaje automático o machine learning (ML) para predecir el éxito de las campañas de telemarketing bancario. Para ello, se ha utilizado un dataset relacionado con campañas de marketing directo basado en llamadas de una institución bancaria portuguesa. Dicho dataset se llama **Bank Marketing Data Set**, es de dominio público y se encuentra disponible en el portal web del Machine Learning Repository de la Universidad de California en Irvine. 
+
+El presente es un ejercicio de clasificación, donde se tiene que predecir si el cliente se suscribe al producto bancario (depósito a largo plazo). Por lo tanto, el objetivo del estudio es determinar cuál es el modelo que logra el mejor resultado en el conjunto de datos utilizado. El conjunto de datos cuenta con 41188 registros y tiene un total de 21 variables que se describen en el diccionario (Lista de Variables.jpg).
+
+Fuente de datos: https://archive.ics.uci.edu/ml/datasets/bank+marketing
+
+El cuaderno de trabajo contiene el código de las distintas etapas del modelamiento de datos que se ha realizado. En la primera sección se cargan los datos, se hace una primera visualización de cómo están los registros y se divide el conjunto de datos en un grupo para entrenamiento (75%) y otro para la prueba (25%). En la segunda sección se realiza una análisis exploratorio de los datos para definir tendencias, conocer mejor la distribución y comportamiento de las variables. En la tercera parte hemos preparado el código de preprocesamiento luego de revisar los registros para detectar valores faltantes, explorar cómo se comportan algunas de las variables para definir el mejor método de imputación. En la cuarta sección se aplica en el conjunto de entrenamiento los métodos definidos en la sección anterior. En la quinta parte se realiza el entrenamiento de los modelos. Se probó un Random Forest Classifier, Gradient Boosting Classifier, XGB Classifier y un AdaBoost Classifier, se muestran y comparan los resultados.
